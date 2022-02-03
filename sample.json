@@ -1,0 +1,115 @@
+{
+  "took" : 2,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 2,
+    "successful" : 2,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 4,
+      "relation" : "eq"
+    },
+    "max_score" : 4.2096553,
+    "hits" : [
+      {
+        "_index" : "persons",
+        "_type" : "_doc",
+        "_id" : "tEwrwH4BcK-K15gG9Eqn",
+        "_score" : 4.2096553,
+        "_source" : {
+          "id" : 26,
+          "uId" : "b71c54bb-0532-48e1-a5af-53cd8468591a",
+          "caseRecNumber" : "3cd6fb8085a446cc94b914c2a60a03e4",
+          "personType" : "DONOR",
+          "dob" : "2000-04-01",
+          "email" : "PKNRkLl@YQRFfLI.biz",
+          "firstname" : "Chloe",
+          "surname" : "Greenfelder",
+          "companyName" : "vSgqdTFkmxKEUVRWGVbfDEfaL",
+          "addresses" : {
+            "addressLines" : [
+              "pM",
+              "vr"
+            ],
+            "postcode" : "dolorem"
+          }
+        }
+      },
+      {
+        "_index" : "firms",
+        "_type" : "_doc",
+        "_id" : "D0wswH4BcK-K15gGCku3",
+        "_score" : 3.3623576,
+        "_source" : {
+          "id" : 26,
+          "uId" : "30b80fb8-ea2e-4192-87e3-3724b56ef4fb",
+          "email" : "pHuShBm@RYirytj.info",
+          "firmName" : "sed",
+          "firmNumber" : "labore",
+          "addressLine1" : "dolorem",
+          "addressLine2" : "qui",
+          "addressLine3" : "perferendis",
+          "town" : "magnam",
+          "country" : "enim",
+          "postcode" : "velit",
+          "phoneNumber" : "231-108-9546"
+        }
+      },
+      {
+        "_index" : "firms",
+        "_type" : "_doc",
+        "_id" : "FUwswH4BcK-K15gGCku3",
+        "_score" : 3.3623576,
+        "_source" : {
+          "id" : 29,
+          "uId" : "a9d58a56-0620-48dd-a457-158dd614cfd1",
+          "email" : "QdAGHJK@gKGFOLe.net",
+          "firmName" : "dolorem",
+          "firmNumber" : "ex",
+          "addressLine1" : "qui",
+          "addressLine2" : "et",
+          "addressLine3" : "numquam",
+          "town" : "provident",
+          "country" : "culpa",
+          "postcode" : "laboriosam",
+          "phoneNumber" : "784-596-1210"
+        }
+      },
+      {
+        "_index" : "firms",
+        "_type" : "_doc",
+        "_id" : "GkwswH4BcK-K15gGCku3",
+        "_score" : 3.3623576,
+        "_source" : {
+          "id" : 13,
+          "uId" : "20e49626-08fe-46e4-86fb-fc6fa74e7498",
+          "email" : "AaFHEyj@UeKLVtw.com",
+          "firmName" : "enim",
+          "firmNumber" : "rerum",
+          "addressLine1" : "optio",
+          "addressLine2" : "asperiores",
+          "addressLine3" : "dolorem",
+          "town" : "nulla",
+          "country" : "voluptatem",
+          "postcode" : "omnis",
+          "phoneNumber" : "783-652-9410"
+        }
+      }
+    ]
+  },
+  "aggregations" : {
+    "personType" : {
+      "doc_count_error_upper_bound" : 0,
+      "sum_other_doc_count" : 0,
+      "buckets" : [
+        {
+          "key" : "DONOR",
+          "doc_count" : 1
+        }
+      ]
+    }
+  }
+}
